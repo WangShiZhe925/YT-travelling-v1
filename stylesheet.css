@@ -17,7 +17,7 @@
 }
 .CT{
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     background-color:lightgray;
 }
 .CT:hover{
