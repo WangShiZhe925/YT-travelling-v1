@@ -1,4 +1,4 @@
-.top {
+        .top {
 
 
     display: flex;
@@ -82,4 +82,3 @@
 .intabpic:hover{
     border:3px,solid,darkslategray;
 }
-/* 子元素垂直居中对齐 */
