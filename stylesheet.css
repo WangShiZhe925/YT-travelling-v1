@@ -1,8 +1,15 @@
 .top {
+
+
     display: flex;
+
+
     justify-content: space-around;
+    /* 子元素水平居中分布 */
+
     background-color: darkblue;
     color: white;
+
 }
 .content {
     background-color: whitesmoke;
@@ -59,18 +66,20 @@
 .itemtab{
     width:16cm;
     height:23cm;
-    border:20px solid lightblue;
+    border:20px,solid,lightblue;
     background-color:whitesmoke;
+    flex-wrap:wrap;
 }
 .itemtab:hover{
     background-color:lightgray;
-    border:20px solid lightsteelblue;
+    border:20px,solid,lightsteelblue;
 }
 .intabpic{
     width:16cm;
     height:10cm;
-    border:3px solid gray;
+    border:3px,solid,gray;
 }
 .intabpic:hover{
-    border:3px solid darkslategray;
+    border:3px,solid,darkslategray;
 }
+/* 子元素垂直居中对齐 */
