@@ -3,207 +3,239 @@
 
 <head>
     <title>Some information about YT: Places of interest, foods, and the culture.</title>
-    <style>
+    <!-- <style>
         .top {
 
 
-            display: flex;
+    display: flex;
 
+    justify-content: space-around;
+    /* 子元素水平居中分布 */
 
-            justify-content: space-around;
-            /* 子元素水平居中分布 */
+    background-color: darkblue;
+    color: white;
 
-            background-color: darkblue;
-            color:white;
+}
+.content {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-wrap:wrap;
+}
 
-        }
+.tile {
+    background-color: lightslategray;
+    display: flex;
+    justify-content: space-around;
+    font: bold;
+}
 
-        .toplink {
-            color: brown;
-            background-color: aqua;
-            display: flex;
+.tile2 {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    font-style: italic;
+}
+.tile2:hover{
+    background-color:lightslategray;
+    font-style:normal;
+}
 
+.piclist {
+    display: flex;
+    overflow-x: scroll;
+}
 
-            justify-content: space-around;
-            width: auto;
-            height: auto;
-            font-style: italic;
-        }
+.pic {
+    width: 8cm;
+    height: 8cm;
+    border: 5px, solid, white;
 
-        .content {
-            background-color: whitesmoke;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .tile{
-            background-color:lightslategray;
-            display:flex;
-            justify-content:space-around;
-            font:bold;
-        }
-        .tile2{
-            background-color:whitesmoke;
-            display:flex;
-            justify-content:space-around;
-            font-style:italic;
-        }
-        .CT {
-            display: flex;
-            justify-content: center;
-            /* 水平居中 */
-            align-items: center;
-            /* 垂直居中 */
+}
 
-        }
-        .piclist{
-            display:flex;
-            overflow-x:scroll;
-        }
-        .pic{
-            width:8cm;
-            height:8cm;
-            border:5px,solid,white;
-
-        }
-        .endpage{
-            background-color:darkgray;
-            color:aliceblue;
-            display:flex;
-            justify-content:space-around;
-
-
-        }
-        .scenepic{
-            width:16cm;
-            height:16cm;
-            border:10px,solid,whitesmoke;
-        }
-
-        /* 子元素垂直居中对齐 */
-    </style>
+.endpage {
+    background-color: darkgray;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+.endlink{
+    background-color:darkgray;
+}
+.endlink:hover{
+    background-color:lightgray;
+}
+.scenepic {
+    width: 16cm;
+    height: 16cm;
+    border: 10px, solid, whitesmoke;
+}
+.itemtab{
+    width:16cm;
+    height:23cm;
+    border:20px,solid,lightblue;
+    background-color:whitesmoke;
+}
+.itemtab:hover{
+    background-color:lightgray;
+    border:20px,solid,lightsteelblue;
+}
+.intabpic{
+    width:16cm;
+    height:10cm;
+    border:3px,solid,gray;
+}
+.intabpic:hover{
+    border:3px,solid,darkslategray;
+}
+/* 子元素垂直居中对齐 */
+    </style> -->
+    <link href="https://wangshizhe925.github.io/YT-travelling-v1/stylesheet.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
     <div class="top">
         <a href="https://wangshizhe925.github.io/YT-travelling-v1/index.html">
-            <img src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/iconback.png" width="128"
-                height="128" alt="Return to the Home Page"></img>
+            <h1 style="color:white">YT-travelling-v1</h1>
         </a>
-        <h1>A website that tells you something about Yantai.</h1>
-    </div>
-    <div class="toplink">
-        <a class="CT" href="https://wangshizhe925.github.io/YT-travelling-v1/Attractions.html">
-            <h4>Attractions</h4>
+        <a style="color: aquamarine" href="https://wangshizhe925.github.io/YT-travelling-v1/Attractions.html">
+            <h2>Attractions</h2>
         </a>
-        <a class="CT" href="https://wangshizhe925.github.io/YT-travelling-v1/Specialties.html">
-            <h4>Specialties</h4>
+        <a style="color: aquamarine" href="https://wangshizhe925.github.io/YT-travelling-v1/Specialties.html">
+            <h2>Specialties</h2>
         </a>
-        <a class="CT" href="https://wangshizhe925.github.io/YT-travelling-v1/Culture.html">
-            <h4>Culture</h4>
+        <a style="color: aquamarine" href="https://wangshizhe925.github.io/YT-travelling-v1/Culture.html">
+            <h2>Culture</h2>
         </a>
-        <a class="CT" href="https://wangshizhe925.github.io/YT-travelling-v1/Guide.html">
-            <h4>Travel Guide</h4>
+        <a style="color: aquamarine" href="https://wangshizhe925.github.io/YT-travelling-v1/Guide.html">
+            <h2>Travel Guide</h2>
         </a>
-    </div>
-    <div class="content">
-        <div class="tile">
+    </div><div class="tile">
             <h1>ATTRACTIONS</h1>
-        </div>            
+        </div>
         <div class="tile" style="background-color:lightgray">
             <h3>Here we will show you some attractions in Yantai. We cannot show everything below.</h3>
         </div>
-        <div class="tile2">
-            <h2>Penglai Pavilion</h2>
-        </div>
+    <div class="content">
+        
+        <div class="itemtab">
+            <div class="tile2">
+                <h2>Penglai Pavilion</h2>
+            </div>
             <p>Level:AAAAA Scenic Area, a National Key Cultural Relic Protection Unit.</p>
-        <p>Location:Northernmost of Jiaodong Peninsula, Penglai District</p>
-        <p>Highlights:Known as "Fairyland on Earth", birthplace of the Eight Immortals Crossing 
-            the Sea legend; great spot to watch mirages. It is one of China's Four Great Ancient Towers.</p>
-        <p>Tip:Visit at sunrise for the best sea-and-sky view.</p>
-        <p>Introduction:Penglai Pavilion is located on the top of Danya Mountain, Penglai District, 
-            Yantai City, Shandong Province, and is one of the four famous buildings in China, a national 
-            5A-level scenic spot, a national key cultural relics protection unit, and is known as a 
-            wonderland on earth. It is not a single pavilion, but a huge group of ancient buildings 
-            composed of six major buildings (Mituo Temple, Dragon King Palace, Tianhou Palace, 
-            Penglai Pavilion Main Building, Sanqing Hall, Lüzu Hall) and ancillary buildings. 
-            It is also the birthplace of the legend of watching the "mirage" and "the Eight Immortals Crossing the Sea".</p>
-        <div class="piclist">
-                <img class="scenepic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/penglaige1.png">
-                <img class="scenepic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/penglaige2.jpg">
-                <img class="scenepic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/penglaige3.jpg">
+            <p>Location:Northernmost of Jiaodong Peninsula, Penglai District</p>
+            <p>Highlights:Known as "Fairyland on Earth", birthplace of the Eight Immortals Crossing
+                the Sea legend; great spot to watch mirages. It is one of China's Four Great Ancient Towers.</p>
+            <p>Tip:Visit at sunrise for the best sea-and-sky view.</p>
+            <p>Introduction:Penglai Pavilion is located on the top of Danya Mountain, Penglai District,
+                Yantai City, Shandong Province, and is one of the four famous buildings in China, a national
+                5A-level scenic spot, a national key cultural relics protection unit, and is known as a
+                wonderland on earth. It is not a single pavilion, but a huge group of ancient buildings
+                composed of six major buildings (Mituo Temple, Dragon King Palace, Tianhou Palace,
+                Penglai Pavilion Main Building, Sanqing Hall, Lüzu Hall) and ancillary buildings.
+                It is also the birthplace of the legend of watching the "mirage" and "the Eight Immortals Crossing the
+                Sea".</p>
+            <div class="piclist">
+                <img class="intabpic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/penglaige1.png">
+                <img class="intabpic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/penglaige2.jpg">
+                <img class="intabpic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/penglaige3.jpg">
+            </div>
         </div>
-        <div class="tile2">
-            <h2>Yantai Mountain</h2>
+        <div class="itemtab">
+            <div class="tile2">
+                <h2>Yantai Mountain</h2>
+            </div>
+            <p>Level: Key Historical Site, Symbol of Yantai</p>
+            <p>Location: Zhifu District, the birthplace of Yantai City</p>
+            <p>Highlights: Features 17 former consulate buildings of Britain, USA, Germany, Japan, etc.; Yantai Hill
+                Lighthouse offers
+                a 360° panoramic view of the coastal city; Bing Xin Memorial Hall is here (the writer spent her childhood
+                here).</p>
+            <p>Tip: Walk the coastal plank road to enjoy the waves hitting the reefs.</p>
+            <p>Introduction: Yantai Mountain is located at the northern end of Zhifu District, Yantai City, Shandong
+                Province, and is
+                the birthplace and symbol of Yantai, a national AAAA-level scenic spot, and a national key cultural relics
+                protection
+                unit. It is 42.5 meters above sea level and is surrounded by the sea on three sides, with a total area of 45
+                hectares;
+                It was named after the establishment of Langyan Duntai (Beacon Tower) in the thirty-first year of Ming
+                Hongwu (1398),
+                and the name of Yantai City is also derived from this. With a history of more than 600 years, it has the
+                most complete
+                and dense modern consulate complex in Asia, and is a unique landscape that blends mountains, seas, cities
+                and ports.</p>
+            <div class="piclist">
+                <img class="intabpic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/mountyantai1.png">
+                <img class="intabpic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/yantaishan2.jpg">
+                <img class="intabpic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/yantaishan3.jpg">
+            </div>
         </div>
-        <p>Level: Key Historical Site, Symbol of Yantai</p>
-        <p>Location: Zhifu District, the birthplace of Yantai City</p>
-        <p>Highlights: Features 17 former consulate buildings of Britain, USA, Germany, Japan, etc.; Yantai Hill Lighthouse offers 
-            a 360° panoramic view of the coastal city; Bing Xin Memorial Hall is here (the writer spent her childhood here).</p>
-        <p>Tip: Walk the coastal plank road to enjoy the waves hitting the reefs.</p>
-        <p>Introduction: Yantai Mountain is located at the northern end of Zhifu District, Yantai City, Shandong Province, and is 
-            the birthplace and symbol of Yantai, a national AAAA-level scenic spot, and a national key cultural relics protection 
-            unit. It is 42.5 meters above sea level and is surrounded by the sea on three sides, with a total area of 45 hectares; 
-            It was named after the establishment of Langyan Duntai (Beacon Tower) in the thirty-first year of Ming Hongwu (1398),
-             and the name of Yantai City is also derived from this. With a history of more than 600 years, it has the most complete 
-             and dense modern consulate complex in Asia, and is a unique landscape that blends mountains, seas, cities and ports.</p>
-        <div class="piclist">
-            <img class="scenepic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/mountyantai1.png">
-            <img class="scenepic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/yantaishan2.jpg">
-            <img class="scenepic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/yantaishan3.jpg">
+        <div class="itemtab">
+            <div class="tile2">
+                <h2>Changyu Wine Culture Museum</h2>
+            </div>
+            <p>Level: AAAA Scenic Area</p>
+            <p>Location: Dama Road, Zhifu District</p>
+            <p>Highlights: Highlights: A "living fossil" of China's wine industry. Founded in 1892, it displays century-old
+                wine cellars, antique wine-making equipment, and offers wine-tasting experiences.</p>
+            <p>Tip: Book a guided tour to learn about the history of Chinese wine export.</p>
+            <p>
+                Introduction: Changyu Wine Culture Museum is located at No. 56 Amasa Road, Zhifu District, Yantai City,
+                Shandong Province (in the courtyard of the former site of Changyu Company), and is the first world-class
+                wine museum in China, a national AAAA-level tourist attraction, a national first-class museum, the first
+                batch of national industrial tourism demonstration bases (top ten), and a patriotic education base of
+                the China Federation of Overseas Chinese. It was opened in 1992 during the centennial celebration,
+                expanded twice in 2002 and 2007, and completed the digital 4.0 upgrade in 2022 (Changyu's 130th
+                anniversary).
+                The museum area includes the wine culture square, the main exhibition hall, the century-old underground
+                wine cellar, and the 1892 Art Center, which is an iconic carrier of Yantai's port opening culture and
+                national
+                industrial civilization.
+            </p>
+            <div class="piclist">
+                <img class="intabpic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/zhangyuwine1.png">
+                <img class="intabpic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/zhangyu2.jpg">
+                <img class="intabpic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/zhangyu3.jpg">
+            </div>
         </div>
-        <div class="tile2">
-            <h2>Changyu Wine Culture Museum</h2>
+        <div class="itemtab">
+            <div class="tile2">
+                <h2>Yangma Island</h2>
+            </div>
+            <p>Level: AAAA Tourist Resort</p>
+            <p>Location: Muping District, northeast of Yantai</p>
+            <p>
+                Highlights: Also called "Royal Horse Island", with a legend linking to Emperor Qin Shi Huang. It has golden
+                beaches, crystal-clear seawater, and offers activities like sea fishing, beach camping, and coastal cycling.
+            </p>
+            <p>Tip: Rent an electric bike to circle the entire island.</p>
+            <p>
+                Introduction: Yangma Island (also known as Elephora Island), located in the Yellow Sea, 9 kilometers north
+                of Muping District, Yantai City, Shandong Province, is a national AAAA-level tourist attraction, a
+                provincial-level tourist resort and a provincial-level geopark. The total area is 13.52 square kilometers,
+                and the coastline is about 19.5 kilometers long; Named after the legend of Qin Shi Huang raising imperial
+                horses here during his eastern tour, there is a unique landform of "one island and three beaches" (black
+                mud flats in front of the island, golden sand beaches on the east side of the island, and reef beaches
+                behind the island), with a forest coverage rate of more than 60% and clear sea water, known as the "Oriental
+                Hawaii" and "Northern Glass Sea Secret Land" Muping District Government.
+            </p>
+            <div class="piclist">
+                <img class="intabpic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/yangmaisland1.png">
+                <img class="intabpic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/yangmadao2.jpg">
+                <img class="intabpic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/yangmadao3.png">
+            </div>
         </div>
-        <p>Level: AAAA Scenic Area</p>
-        <p>Location: Dama Road, Zhifu District</p>
-        <p>Highlights: Highlights: A "living fossil" of China's wine industry. Founded in 1892, it displays century-old 
-            wine cellars, antique wine-making equipment, and offers wine-tasting experiences.</p>
-        <p>Tip: Book a guided tour to learn about the history of Chinese wine export.</p>
-        <p>
-            Introduction: Changyu Wine Culture Museum is located at No. 56 Amasa Road, Zhifu District, Yantai City, 
-            Shandong Province (in the courtyard of the former site of Changyu Company), and is the first world-class 
-            wine museum in China, a national AAAA-level tourist attraction, a national first-class museum, the first 
-            batch of national industrial tourism demonstration bases (top ten), and a patriotic education base of 
-            the China Federation of Overseas Chinese. It was opened in 1992 during the centennial celebration, 
-            expanded twice in 2002 and 2007, and completed the digital 4.0 upgrade in 2022 (Changyu's 130th anniversary).
-             The museum area includes the wine culture square, the main exhibition hall, the century-old underground 
-             wine cellar, and the 1892 Art Center, which is an iconic carrier of Yantai's port opening culture and national 
-             industrial civilization.
-        </p>
-        <div class="piclist">
-            <img class="scenepic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/zhangyuwine1.png">
-            <img class="scenepic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/zhangyu2.jpg">
-            <img class="scenepic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/zhangyu3.jpg">
-        </div>
-        <div class="tile2">
-            <h2>Yangma Island</h2>
-        </div>
-        <p>Level: AAAA Tourist Resort</p>
-        <p>Location: Muping District, northeast of Yantai</p>
-        <p>
-            Highlights: Also called "Royal Horse Island", with a legend linking to Emperor Qin Shi Huang. It has golden 
-            beaches, crystal-clear seawater, and offers activities like sea fishing, beach camping, and coastal cycling.
-        </p>
-        <p>Tip: Rent an electric bike to circle the entire island.</p>
-        <p>
-            Introduction: Yangma Island (also known as Elephora Island), located in the Yellow Sea, 9 kilometers north 
-            of Muping District, Yantai City, Shandong Province, is a national AAAA-level tourist attraction, a 
-            provincial-level tourist resort and a provincial-level geopark. The total area is 13.52 square kilometers, 
-            and the coastline is about 19.5 kilometers long; Named after the legend of Qin Shi Huang raising imperial 
-            horses here during his eastern tour, there is a unique landform of "one island and three beaches" (black 
-            mud flats in front of the island, golden sand beaches on the east side of the island, and reef beaches 
-            behind the island), with a forest coverage rate of more than 60% and clear sea water, known as the "Oriental 
-            Hawaii" and "Northern Glass Sea Secret Land" Muping District Government.
-        </p>
-        <div class="piclist">
-            <img class="scenepic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/yangmaisland1.png">
-            <img class="scenepic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/yangmadao2.jpg">
-            <img class="scenepic" src="https://wangshizhe925.github.io/YT-travelling-v1/imageholding/yangmadao3.png">
-        </div>
-    </div>
+    </div> 
     <div class="endpage">
-        <a href="#top" ><h4>top</h4></a>
-        <a href="https://wangshizhe925.github.io/YT-travelling-v1/about.html"><h4>About Us</h4></a>
-        <a href="https://wangshizhe925.github.io/YT-travelling-v1/index.html"><h4>Quickly Return to the Homepage</h4></a>
+        <a class="endlink" href="#top">
+            <h4>top</h4>
+        </a>
+        <a class="endlink" href="https://wangshizhe925.github.io/YT-travelling-v1/about.html">
+            <h4>About Us</h4>
+        </a>
+        <a class="endlink" href="https://wangshizhe925.github.io/YT-travelling-v1/index.html">
+            <h4>Quickly Return to the Homepage</h4>
+        </a>
     </div>
 </body>
 
