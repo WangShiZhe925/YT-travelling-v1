@@ -30,13 +30,6 @@
     font-style: italic;
 }
 
-.tabs{
-    display:flex;
-    justify-content:space-around;
-    font-style:italic;
-    color:aquamarine;
-}
-
 .piclist {
     display: flex;
     overflow-x: scroll;
@@ -54,10 +47,13 @@
     color: aliceblue;
     display: flex;
     justify-content: space-around;
-
-
 }
-
+.endlink{
+    background-color:darkgray;
+}
+.endlink:hover{
+    background-color:lightgray;
+}
 .scenepic {
     width: 16cm;
     height: 16cm;
