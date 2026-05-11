@@ -1,8 +1,7 @@
-        .top {
+.top {
 
 
     display: flex;
-
 
     justify-content: space-around;
     /* 子元素水平居中分布 */
@@ -14,6 +13,8 @@
 .content {
     background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-wrap:wrap;
 }
 
 .tile {
@@ -68,7 +69,6 @@
     height:23cm;
     border:20px,solid,lightblue;
     background-color:whitesmoke;
-    flex-wrap:wrap;
 }
 .itemtab:hover{
     background-color:lightgray;
@@ -82,3 +82,4 @@
 .intabpic:hover{
     border:3px,solid,darkslategray;
 }
+/* 子元素垂直居中对齐 */
