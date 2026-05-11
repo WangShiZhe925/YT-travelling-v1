@@ -19,7 +19,8 @@
     display:flex;
     justify-content:center;
     background-color:lightgray;
-}.CT:hover{
+}
+.CT:hover{
     background-color:gray;
 }
 .tile {
